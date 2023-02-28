@@ -1,5 +1,5 @@
 <script>
-	import Movie from './Movie.svelte';
+	import MovieCard from './MovieCard.svelte';
 
 	/**
 	 * @type {import('$lib/types').Movie[]}
@@ -12,7 +12,7 @@
 {#if movies.length > 0}
 	<div class="popular-movies">
 		{#each movies as movie}
-			<Movie {movie} />
+			<MovieCard {movie} />
 		{/each}
 	</div>
 {:else}
