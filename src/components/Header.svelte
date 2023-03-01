@@ -7,9 +7,13 @@
 </header>
 
 <style>
+	header {
+		text-align: center;
+	}
+
 	img {
-		display: block;
 		width: 10vw;
-		margin: 1rem auto;
+		min-width: 200px;
+		margin: 1rem 0;
 	}
 </style>
